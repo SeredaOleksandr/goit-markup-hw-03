@@ -2,10 +2,13 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
+  max-width: 1440px;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
@@ -13,11 +16,39 @@ a {
   color: currentColor;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  display: block;
+}
+
 /* Hedder */
 .header {
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 .header-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .ws-logo {
@@ -73,6 +104,8 @@ a {
 /* Hero */
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -82,6 +115,9 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .hero-button {
@@ -92,6 +128,9 @@ a {
   line-height: 1.5;
   background-color: #4d5ae5;
   cursor: pointer;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -119,6 +158,11 @@ a {
 }
 
 /* Our Skill */
+.skill {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .skill-title {
   position: absolute;
   width: 1px;
@@ -137,6 +181,7 @@ a {
 }
 
 .skill-item {
+  width: 264px;
 }
 
 .skill-subtitle {
@@ -146,15 +191,18 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 8px;
 }
 
 /* Our Team */
 .team {
   background-color: #f4f4fd;
   text-align: center;
+  padding: 120px 156px;
 }
 
 .team-title {
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -162,9 +210,14 @@ a {
 
 .team-item {
   background-color: #fff;
+  width: 264px;
+  padding: 0 0 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-img {
+  margin-bottom: 32px;
 }
 
 .team-text {
@@ -172,13 +225,21 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-top: 8px;
+}
+
+.team-item-card {
+
 }
 
 /* Our Portfolio */
 .portfolio {
+  padding: 120px 156px;
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 .portfolio-title {
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -187,9 +248,12 @@ a {
 .portfolio-item {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
+  width: 360px;
+  padding-bottom: 32px;
 }
 
 .portfolio-item-img {
+  margin-bottom: 32px;
 }
 
 .portfolio-subtitle {
@@ -199,12 +263,19 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
+}
+
+.portfolio-item-card {
+  padding: 0 8px;
 }
 
 /* Footer */
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 101px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -226,4 +297,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-top: 18px;
 }
