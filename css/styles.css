@@ -54,7 +54,6 @@ button {
 }
 
 .header-nav {
-  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,6 +75,7 @@ button {
 }
 
 .header-nav-list {
+  padding: 24px 0;
   display: flex;
   gap: 40px;
 }
