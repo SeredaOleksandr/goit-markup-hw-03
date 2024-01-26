@@ -75,7 +75,6 @@ button {
 }
 
 .header-nav-list {
-  padding: 24px 0;
   display: flex;
   gap: 40px;
 }
@@ -86,6 +85,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .heder-nav-link:hover,
