@@ -70,7 +70,7 @@ button {
   margin-right: 76px;
 }
 
-.hedder-logo-dark {
+.header-logo-dark {
   color: #2e2f42;
 }
 
@@ -79,27 +79,28 @@ button {
   gap: 40px;
 }
 
-.heder-nav-link {
+.header-nav-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
-.heder-nav-link:hover,
-.heder-nav-link:active,
-.heder-nav-link:focus {
+.header-nav-link:hover,
+.header-nav-link:active,
+.header-nav-link:focus {
   color: #404bbf;
 }
 
-.heder-nav-link:active,
-.heder-nav-link:focus {
-  text-decoration: underline;
+.header-nav-link:active,
+.header-nav-link:focus {
+  border-bottom: 2px solid #404bbf;
 }
 
-.heder-adress {
+.header-adress {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -107,14 +108,14 @@ button {
   letter-spacing: 0.02em;
 }
 
-.heder-adress-list {
+.header-adress-list {
   display: flex;
   gap: 40px;
 }
 
-.heder-adress-link:hover,
-.heder-adress-link:active,
-.heder-adress-link:focus {
+.header-adress-link:hover,
+.header-adress-link:active,
+.header-adress-link:focus {
   color: #404bbf;
 }
 
